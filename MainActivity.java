@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                             t.setText("User already exists");
                                 Toast.makeText(getApplicationContext(),"User already exists!",Toast.LENGTH_SHORT).show();
                             }else if(status.equals("IncRole")){
-                            t.setText("Please select either an Admin, Individual or Volunteer role");
+                            t.setText("Please select either an Admin, Individual or Volunteer role!");
                                 Toast.makeText(getApplicationContext(),"Please select either an Admin, Individual or Volunteer role",Toast.LENGTH_SHORT).show();
                             }else{
                                 t.setText("Unsuccessful");
